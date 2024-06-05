@@ -1,0 +1,13 @@
+# Copyright (c) 2024 Sorcerer Corporation
+
+config ZEPHYR_COBS_C_MODULE
+	bool
+
+menuconfig COBS_C
+	bool "COBS C Support"
+	help
+	  This option enables the cobs-c library.
+
+if COBS_C
+
+endif # COBS_C
